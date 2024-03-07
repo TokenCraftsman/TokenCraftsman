@@ -43,9 +43,7 @@ git clone https://github.com/doyeninnit/TokenCraftsman.git
    ```sh
    cd TokenCraftsman
    ```
-    ```sh
-   git switch asset
-   ```
+
 2. Run the following command to start a local Internet Computer replica in the background:
    ```sh
    dfx start --background
