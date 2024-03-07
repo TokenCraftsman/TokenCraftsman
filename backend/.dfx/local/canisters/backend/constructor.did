@@ -1,0 +1,6 @@
+service: () -> {
+    addOrUpdateToken: (principal, record {featureFlags:bool; projectName:text; transferFee:text; tokenSymbol:text; tokenName:text; preMintedTokens:text}) -> (text);
+    getAllTokens: () -> (vec record {featureFlags:bool; projectName:text; transferFee:text; tokenSymbol:text; tokenName:text; preMintedTokens:text}) query;
+    getToken: (text, text) -> (opt record {featureFlags:bool; projectName:text; transferFee:text; tokenSymbol:text; tokenName:text; preMintedTokens:text}) query;
+    getUserProfile: (principal) -> (opt record {"principal":principal; tokens:vec record {featureFlags:bool; projectName:text; transferFee:text; tokenSymbol:text; tokenName:text; preMintedTokens:text}}) query;
+}

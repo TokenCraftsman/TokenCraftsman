@@ -1,0 +1,1 @@
+{"canister_methods":{"queries":[{"name":"getUserProfile","composite":false},{"name":"getToken","composite":false},{"name":"getAllTokens","composite":false}],"updates":[{"name":"addOrUpdateToken"}],"callbacks":{}},"env_vars":[]}
