@@ -13,6 +13,11 @@ TokenCraftsman is more than just a tool; it's a movement towards opening the blo
 
 Embark on your token creation journey with TokenCraftsman and unlock the full potential of the Internet Computer Protocol. Welcome to the future of tokenization, where your vision can become a reality in just seconds.
 
+### Demo Video
+[Demo Video Link]([Demo Video](https://www.youtube.com/watch?v=VIDEO_ID)
+
+
+
 ## Project Structure
 
 The project is organized under the umbrella folder `TokenCraftsman`, which contains three subfolders:
